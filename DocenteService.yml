@@ -7,9 +7,7 @@ spring:
     username: Simone
  
     password: Corso12!
-    
-          
-  rsocket:
+
     server:
       port: 8081
             
