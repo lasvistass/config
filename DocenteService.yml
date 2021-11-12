@@ -7,10 +7,17 @@ spring:
     username: Simone
  
     password: Corso12!
-      
+    
+          
   rsocket:
     server:
       port: 8081
-      
+            
   application:
     name: DocenteService
+    
+  jpa:
+    show-sql: true
+
+    hibernate:
+      ddl-auto: update
