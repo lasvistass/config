@@ -1,15 +1,16 @@
-spring: 
-  application: 
-    name: DocenteService
-  datasource: 
+spring:
+  datasource:
     driver-class-name: drive-class-name=com.mysql.jdbc.Driver
-    password: Corso12!
-    server: 
-      port: 8080
-    url: "mysql://212.131.189.19:30016/corso12"
+   
+    url: mysql://212.131.189.19:30016/corso12
+
     username: Simone
-  security: 
-    name: user
-    password: password
+ 
+    password: Corso12!
       
+  rsocket:
+    server:
+      port: 8080
       
+  application:
+    name: DocenteService
